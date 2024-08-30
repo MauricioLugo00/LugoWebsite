@@ -126,7 +126,8 @@ header {
 @media (max-width: 858px){
     .checkbtn{
         display: block;
-        color: #1A1A2E;
+        color: #007BFF;
+        z-index: 1;
     }
     
 
@@ -161,6 +162,7 @@ header {
 
     #check:checked ~ .nav-list-container{
         left: 0;
+        
     }
 
     .logos{
