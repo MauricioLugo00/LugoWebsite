@@ -1,0 +1,43 @@
+* {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal; 
+}
+
+body { 
+    margin: 0;
+    color: #eee;
+    background-color: #120907;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+
+
+form {
+    background-color: transparent;
+    padding: 10px 20px;
+    min-width: 600px;
+    margin: 100px auto;
+    box-shadow: 0px 0px 45px #1c1f37;    
+}
+
+
+input, textarea, select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 8px;
+    border: none;
+    border-left: 2px solid #666;
+    box-shadow: 0px 0px 5px #1c1f37;
+    background-color: transparent;
+    color: #bfd5ed;
+    border-radius: 5px;   
+    margin: 6px 0;
+}
+
+fieldset {
+    margin: 15px 0;
+}
+
